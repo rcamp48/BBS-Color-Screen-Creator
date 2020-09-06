@@ -1,4 +1,5 @@
-# BBS-Color-Screen-Creator
+ BBS-Color-Screen-Creator
+
 This is a BBS color Screen creator, it takes ascii drawings and converts them to BBS code.
 
 This program has ascii screens built in , just run the program and it will show you how to build an ascii
@@ -6,36 +7,6 @@ drawing that will work with my program.
 
 There are several reserved symbols that my program uses, for example.
 
-_FULLSCREEN
-CLS
-PRINT
-PRINT " ^-------------------------------------------------+"
-PRINT " !               Main Message Menu                 !"
-PRINT " *-------------------&-----------------------------="
-PRINT " !       $           !                             !"
-PRINT " *-------------------#-----------------------------="
-PRINT " ! [C] Check Your Mail   [S] Scan Messages         !"
-PRINT " ! [E] Enter New Message [J] Join Conference       !"
-PRINT " ! [F] FILE MENU         [U] Update Settings       !"
-PRINT " ! [G] Goodbye           [H] Help Level            !"
-PRINT " ! [Q] Quit to Main Menu [?] Command Help          !"
-PRINT " ! [R] Read Messages                               !"
-PRINT " ~-------------------------------------------------%"
-PRINT
-PRINT "Pay special attention to the symbols on each corner"
-PRINT "They are all different, one for each corner, to work"
-PRINT "properly with my program , they must be right. The "
-PRINT "rest of the characters also must be right except for"
-PRINT "whats in the menu. You can see the other characters"
-PRINT "that I use lines and connectors, the program turns"
-PRINT "into nice corners and borders, for double corners "
-PRINT "and borders, well , you can figure that one out."
-PRINT
-PRINT "Press any key to continue..."
-DO WHILE INKEY$ = ""
-LOOP
-
-This is actually in my code and displays everytime you run it.
 
 Here are some examples of my ascii drawings, actual examples.
 
